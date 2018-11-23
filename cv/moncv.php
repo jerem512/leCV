@@ -2,26 +2,80 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./assets/css/style.css">
   <?php include("./assets/assists/header.php") ?>
   <title>Mon CV</title>
 </head>
 <body>
   <h1><u><i>Mon CV !</i></u></h1>
   <h2><u>Présentation :</u></h2>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi facere, quam dolore eos quaerat similique iste repudiandae inventore, aliquid culpa quasi ipsam exercitationem quos adipisci sequi doloribus amet nobis! Atque!</span>
-  <span>Enim quia aspernatur, sapiente labore, accusamus est cum sed, expedita saepe dolorem recusandae, provident similique et illo quibusdam dolorum quo. Perspiciatis, asperiores voluptates ratione reiciendis, quod voluptate maxime id sapiente!</span>
-  <span>Natus, sapiente magni! Explicabo consequatur nemo asperiores nesciunt laborum blanditiis repellat vitae soluta doloribus odit! Suscipit alias obcaecati, accusantium repudiandae tempore autem ex sunt error beatae quisquam, laboriosam odit dicta!</span>
-  <span>Maxime tempore autem sapiente molestiae harum eveniet eligendi voluptate quaerat ratione laborum labore quibusdam illo, dolor fugit optio non rem repellat dolores porro! Eveniet quas itaque, repellat accusantium, est commodi.</span>
-  <span>Corrupti temporibus, molestiae eaque suscipit. Laudantium possimus vel eveniet a dolores accusantium quia, ut, officia reiciendis autem labore, natus! Officia distinctio itaque nam repudiandae, tenetur eos quasi ducimus inventore fugit.</span></p>
+  <p>
+    <ul>
+      <li>MARCHAL Jérémy</li>
+      <li>18 ans</li>
+      <li>Permis B, voiture</li>
+      <li><a href="telto:0771814942">Téléphone</a></li>
+      <li><a href="mailto:jeremymarchal90@gmail.com">Mail</a></li>
+      <li>41 rue de Verdun</li>
+
+    </ul>
+  </p>
   <h2><u>Formation :</u></h2>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur sint obcaecati beatae veritatis quos hic illo unde numquam eaque. Illo adipisci vitae, debitis alias, veniam placeat dolore ipsa eveniet velit.</span><span>At dolorum itaque laudantium eos quidem, sunt nostrum eaque! Optio ab soluta quo velit eveniet, laboriosam eligendi dolores, architecto voluptate, quas quaerat sed maiores et autem. Reprehenderit nemo, veritatis perspiciatis.</span></p>
-  <h2><u>Expérience professionnelle :</u></h2>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid ducimus provident suscipit voluptas quia doloremque deleniti hic, sunt maiores veniam cum molestias, rem obcaecati aut facere cupiditate? Repellendus, quibusdam, dolores.</span><span>Obcaecati consequuntur enim necessitatibus assumenda excepturi quae in itaque, alias molestiae repudiandae officiis ab quasi nostrum, minima quisquam. Facere nulla nisi, explicabo reiciendis quae necessitatibus molestias inventore quas culpa nemo?</span></p>
+  <p>
+    <ul>
+      <li>Juillet 2018 - Janvier 2019  Formation développeur web et Applications Mobile Institut Français des Affaires - Metz (57)</li>
+      <li>Juin 2017    - Baccalauréat Sciences et Technologies de l’industrie et du développement durable Lycée Louis de Cormontaigne - Metz (57)</li>
+      <li>2016-2015 1ère STI2D Lycée Louis de Cormontaigne - Metz (57)</li>
+      <li>2015-2014 Seconde générale et technologique Lycée Louis de Cormontaigne - Metz (57)</li>
+    </ul>
+</p>
+  <h2><u>Expérience professionnel :</u></h2>
+  <p>
+    <div class="container">
+      <ul>
+        <legend><u>2014|Stage en entreprise d’entretiens sanitaire</u></legend>
+        <li> Prise de mesures</li>
+        <li> Prise de rdv clients</li>
+        <li> Commande de pièces chez un constructeur</li>
+        <li> Réparations sanitaires</li>
+        <li> Observation d’entretiens client/pro</li>
+      </ul>
+      <ul>
+        <legend><u>2016-2017|Projet de terminale sti2d</u></legend>
+          <li> Recherche de solution</li>
+          <li> Création de schéma et maquette électrique</li>
+          <li> Commande de matériel</li>
+          <li> Travail en autonomie totale</li>
+          <li> Présentation du projet devant un jury pro</li>
+      </ul>
+      <ul>
+        <legend><u>2018-2019|Alternance formation dev. web</u></legend>
+          <li> Apprentissages de langues informatiques</li>
+          <li> Autonomie projets dév. web</li>
+          <li> Projet objets connectés</li>
+          <li> Stage en entreprise</li>
+      </ul>
+    </div>
+  </p>
   <h2><u>Langues et informatique :</u></h2>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci labore neque non voluptas rem tempore suscipit, animi, officia dolorem aut illum nisi debitis cum odio nulla ipsa consectetur nemo quis.</span><span>Dolores deserunt magni eveniet ad voluptas minima, accusamus totam error soluta voluptatem reiciendis beatae, temporibus cumque, adipisci dolorum facilis debitis quis. In illum porro corporis voluptate laborum laudantium, sint aut.</span></p>
-  <h2><u>Centres dintérêt :</u></h2>
-  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident facere omnis sint aliquid fugit quasi eum vero fuga! Id similique adipisci repudiandae dolores blanditiis earum quibusdam sunt asperiores perferendis sapiente.</span><span>Tempora porro eligendi ut cupiditate. Accusamus nam tempore similique optio ut repellat, dolor assumenda porro distinctio sit doloremque minima amet nemo, sed sapiente ratione dolores tempora aliquid maiores explicabo deleniti.</span></p>
+  <div class="container">
+    <p>
+      <ul>
+       <legend>Anglais</legend> 
+        <li>Scolaire</li>
+      </ul>
+      <ul>
+       <legend>Espagnol</legend>
+        <li>Scolaire</li>
+      </ul>
+    </p>
+  </div>
+  <h2><u>Centres d'intérêt :</u></h2>
+  <p>
+    Jeux-vidéos   Jeux multi-joueurs <br>
+    Voyages Îles Canaries, Espagne, Turquie, Allemagne, Luxembourg <br>
+    Word, Excel, Power Point, Photoshop, Internet, Multisim, Mapplesim,Inventor <br>
+    Html, CSS, JavaScript, node.js, PHP, SQL, Angular, dev.objet connecté en domotique 
+  </p>
   <a href="http://164.132.54.249/stagiaire/sta2/leCV/">Retour aux sources</a>
   <?php include("./assets/assists/footer.php") ?>
 </body>
