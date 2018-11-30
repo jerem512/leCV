@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="./assets/css/main2.css">
+  <link rel="stylesheet" href="../assets/css/main2.css">
   <link rel="shortcut icon" href="assets/css/photo/logo.png">
   <title>Inscription</title>
 </head>
