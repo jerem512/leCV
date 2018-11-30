@@ -27,7 +27,7 @@
               <li><a href="about.php">A propos</a></li>
               <li><a href="contact.php">Contact</a></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><?php echo htmlspecialchars($_SESSION['login']); ?> <span class="caret"></span></a>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">Mon compte</li>
                   <li><a href="compte.php">Paramètres</a></li>

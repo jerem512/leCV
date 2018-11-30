@@ -8,8 +8,8 @@
 <body>
     <?php
         session_start(); 
-        include("assets/assists/header.php");
-        include("assets/assists/navbar.php");
+        include("../assets/assists/header.php");
+        include("../assets/assists/navbar.php");
         // include("assets/assists/auth.php");
      ?>
     <h1><u>Mes jeux :</u></h1>

@@ -7,8 +7,8 @@
 <body>
   <?php
     session_start(); 
-    include("assets/assists/header.php");
-    include("assets/assists/comptenavbar.php");
+    include("../assets/assists/header.php");
+    include("../assets/assists/comptenavbar.php");
     // include("assets/assists/auth.php");
   ?>
   <div class="container">
@@ -45,6 +45,6 @@
               <button class="btn btn-default">Changer les données personnelles</button>
       </form>  
   </div>
-  <?php include("assets/assists/footer.php") ?>
+  <?php include("../assets/assists/footer.php") ?>
 </body>
 </html>

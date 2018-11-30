@@ -9,7 +9,7 @@
 <div class="container">
         <div class="row">
           <div class="col-sm-offset-2 col-sm-8">
-            <form class="form-horizontal" action="cible_co.php" method="post">
+            <form class="form-horizontal" action="http://164.132.54.249/stagiaire/sta2/leCV/sites/site_v2/serveur/cible_co.php" method="post">
             <h1>Veuillez vous connecter</h1>
               <div class="form-group">
                 <label for="login">Login :</label>

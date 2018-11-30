@@ -1,5 +1,5 @@
 <?php
-include("PDO/co_bdd.php");
+include("../SQL/sql.php");
 if(isset($_POST['login'], $_POST['password'])){
     $req=$bdd->prepare('SELECT id, login, password FROM users WHERE login = :login');
     $req->bindParam(':login',$_POST['login']);
@@ -7,9 +7,9 @@ if(isset($_POST['login'], $_POST['password'])){
     $resultat=$req->fetch();
     if(!$resultat){
     ?>
-    <script>alert("Mauvais identifiants !") </script>
+    <script>alert("Mauvais identifiants !")</script>
     <?php 
-        header("Refresh: 1; URL=index.php");
+        // header("Refresh: 1; URL=index.php");
 
 }
     else{
@@ -21,13 +21,13 @@ if(isset($_POST['login'], $_POST['password'])){
                     <?php
                     $_SESSION['login'] = $resultat['login'];
                     $_SESSION['id'] = $resultat['id'];
-                    header("Refresh: 1; URL=app.php");
+                    // header("Refresh: 1; URL=app.php");
                 }
                 else{
                     ?>
                     <script>alert("Mauvais mot de passe !") </script>
                     <?php  
-                    header("Refresh: 1; URL=index.php");
+                    // header("Refresh: 1; URL=index.php");
                 }
             }
         }

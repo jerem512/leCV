@@ -8,7 +8,7 @@
 	<?php 
   session_start();
   var_dump($login);
-  include("assets/assists/header.php");  
+  include("../assets/assists/header.php");  
   ?>
   <div class="container">
       <form action="cible_mdp.php" method="post">
@@ -26,5 +26,5 @@
     	</form>
     </div>
 </body>
-	<?php include("assets/assists/footer.php") ?>
+	<?php include("../assets/assists/footer.php") ?>
 </html>

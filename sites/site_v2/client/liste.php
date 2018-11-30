@@ -10,8 +10,8 @@
 
     // include("assets/assists/auth.php");
     include("PDO/co_bdd.php");
-    include("assets/assists/header.php"); 
-    include("assets/assists/navbar.php"); ?>
+    include("../assets/assists/header.php"); 
+    include("../assets/assists/navbar.php"); ?>
 
     <h1><u>Liste des jeux :</u></h1>
     <div class="container">

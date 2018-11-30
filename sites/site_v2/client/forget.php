@@ -5,7 +5,7 @@
 	<title>Mot de passe oublié</title>
 </head>
 <body>
-	<?php include("assets/assists/header.php"); ?>
+	<?php include("../assets/assists/header.php"); ?>
 <div class="container">
         <div class="row">
           <div class="col-sm-offset-2 col-sm-8">
@@ -32,5 +32,5 @@
   </div>
 </div>
 </body>
-	<?php include("assets/assists/footer.php") ?>
+	<?php include("../assets/assists/footer.php") ?>
 </html>

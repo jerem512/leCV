@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <?php include("./assets/assists/header.php") ?>
   <title>Mon CV</title>
 </head>
 <body>
@@ -24,8 +23,8 @@
     <ul>
       <li>Juillet 2018 - Janvier 2019  Formation développeur web et Applications Mobile Institut Français des Affaires - Metz (57)</li>
       <li>Juin 2017    - Baccalauréat Sciences et Technologies de l’industrie et du développement durable Lycée Louis de Cormontaigne - Metz (57)</li>
-      <li>2016-2015 1ère STI2D Lycée Louis de Cormontaigne - Metz (57)</li>
-      <li>2015-2014 Seconde générale et technologique Lycée Louis de Cormontaigne - Metz (57)</li>
+      <li>2016-2015 - 1ère STI2D Lycée Louis de Cormontaigne - Metz (57)</li>
+      <li>2015-2014 - Seconde générale et technologique Lycée Louis de Cormontaigne - Metz (57)</li>
     </ul>
 </p>
   <h2><u>Expérience professionnel :</u></h2>
